@@ -5,14 +5,18 @@ body {
   font-size: 12px;
   margin: 0;
   padding: 1rem 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 #wrapper {
   width: 620px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #f0f0f0;
   color: #111111;
   border: 1px solid #999;
+  box-sizing: border-box;
 }
 
 #header {
@@ -89,5 +93,16 @@ blockquote.link-note {
   font-size: 0.875rem;
   opacity: 0.75;
   font-style: italic;
+}
+
+#footer {
+  background-color: #222;
+  padding: 0.4rem 0.75rem;
+  font-size: 11px;
+  color: #aac8ff;
+}
+
+#footer p {
+  margin: 0;
 }
 
