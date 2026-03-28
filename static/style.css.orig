@@ -1,0 +1,41 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #222;
+  background: #fff;
+}
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+
+nav a { margin-right: 0.5rem; }
+
+.meta { font-size: 0.85rem; color: #666; }
+
+.tag {
+  font-size: 0.75rem;
+  background: #eee;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-left: 0.25rem;
+  text-decoration: none;
+  color: #444;
+}
+
+hr { border: none; border-top: 1px solid #ccc; margin: 1.5rem 0; }
+
+blockquote.link-note {
+  margin: 0.25rem 0 0 1.25rem;
+  padding: 0;
+  border: none;
+  font-size: 0.875rem;
+  opacity: 0.75;
+  font-style: italic;
+}
+
