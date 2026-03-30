@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jeff&#39;s Corner of the Old Web</title>
+  <link href="https://jeffgeiger.com/feed.xml" rel="self"/>
+  <link href="https://jeffgeiger.com/"/>
+  <updated>2026-03-26T00:00:00Z</updated>
+  <id>https://jeffgeiger.com/</id>
+  <author>
+    <name>Jeff Geiger</name>
+  </author>
+  
+  <entry>
+    <title>Hello, World</title>
+    <link href="https://jeffgeiger.com/posts/hello-world/"/>
+    <id>https://jeffgeiger.com/posts/hello-world/</id>
+    <updated>2026-03-26T00:00:00Z</updated>
+    <content type="html"><p>The first post on my new old site for the new old web. See the about page for more about that. This is just here so there's at least one post.</p>
+</content>
+  </entry>
+  
+</feed>
+
